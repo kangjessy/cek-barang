@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistem Cek Barang</title>
+    <!-- Menghubungkan CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5 text-center">Sistem Cek Barang</h1>
+      <div class="row mt-4">
+        <div class="col-md-6 offset-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Cek Ketersediaan Barang</h5>
+              <div class="form-group">
+                <label for="barangInput">Nama Barang:</label>
+                <input type="text" id="barangInput" class="form-control" />
+              </div>
+              <button id="cekButton" class="btn btn-primary">Cek</button>
+              <div id="hasilContainer" class="mt-4">
+                <h5 class="card-title">Hasil:</h5>
+                <div id="hasilOutput"></div>
+              </div>
+              <div class="mt-3">
+                <button class="btn btn-outline-primary" id="tambahBarangButton">
+                  + Tambahkan Barang?
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menghubungkan JavaScript Bootstrap dan script cek barang -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Ubah nama file script.js sesuai dengan kebutuhan -->
+  </body>
+</html>
